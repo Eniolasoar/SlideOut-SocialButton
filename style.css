@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(270deg,orange,gold);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+.material-icons{
+    background-color: white;
+    border-radius:50%;
+    padding: 10px;
+    
+}
+h1{
+    text-align: center;
+    /* color:white; */
+    font-family: Lucida Handwriting;
+
+}
